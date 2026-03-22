@@ -24,8 +24,6 @@ class Browse < Formula
     end
   end
 
-  depends_on "bun"
-
   def install
     binary = Dir.glob("browse-*").first || "browse"
     bin.install binary => "browse"
@@ -33,7 +31,8 @@ class Browse < Formula
 
   def caveats
     <<~EOS
-      browse requires a browser to automate. Install one with:
+      browse requires Bun and a browser to work. After installing:
+        curl -fsSL https://bun.sh/install | bash
         bunx playwright install chrome
     EOS
   end
