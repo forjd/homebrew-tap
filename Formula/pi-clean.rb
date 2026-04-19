@@ -4,6 +4,7 @@ class PiClean < Formula
   url "https://github.com/forjd/pi-clean/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "d181307c75ec787bec77a32b9083d7fbc894283945fbc2adc989dd3512fdc069"
   license "MIT"
+  version "1.0.0"
 
   def install
     bin.install "pi-clean.sh" => "pi-clean"
