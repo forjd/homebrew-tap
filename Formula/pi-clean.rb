@@ -1,10 +1,10 @@
 class PiClean < Formula
   desc "Cautious cleanup script for removing pi data and project-local .pi directories"
   homepage "https://github.com/forjd/pi-clean"
-  url "https://github.com/forjd/pi-clean/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d181307c75ec787bec77a32b9083d7fbc894283945fbc2adc989dd3512fdc069"
+  url "https://github.com/forjd/pi-clean/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "14dd879e758c663cc7915f7f5bb0901fbdb590d39ca0465fdeba630f0ff6251b"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   def install
     bin.install "pi-clean.sh" => "pi-clean"
