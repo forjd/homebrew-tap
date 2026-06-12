@@ -1,26 +1,26 @@
 class Browse < Formula
   desc "Fast CLI for browser automation, built on Playwright"
   homepage "https://github.com/forjd/browse"
-  version "0.16.2"
+  version "0.16.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/forjd/browse/releases/download/browse-v0.16.2/browse-darwin-arm64"
-      sha256 "7ce016e74c6c7da6be9cd76be4146e4d157a6872b18abd4868e8daad1a3c1217"
+      url "https://github.com/forjd/browse/releases/download/browse-v0.16.3/browse-darwin-arm64"
+      sha256 "aae39328035f71e5f646dc572111e3664353ad652a78193359b2d52430adc2ad"
     else
-      url "https://github.com/forjd/browse/releases/download/browse-v0.16.2/browse-darwin-x86_64"
-      sha256 "fca890a8e1bbb08c6739a29f414389fff53694b83d03ba74ee8034e778dec6ac"
+      url "https://github.com/forjd/browse/releases/download/browse-v0.16.3/browse-darwin-x86_64"
+      sha256 "c8605682a3474df8587f5a82080c4e21e3c4b95c6e0d2452e6ec1a87bf43feaa"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/forjd/browse/releases/download/browse-v0.16.2/browse-linux-arm64"
-      sha256 "11ffa8da4310480283698bec42c62b8412e7318a20d3a1de47014a78b0d23a60"
+      url "https://github.com/forjd/browse/releases/download/browse-v0.16.3/browse-linux-arm64"
+      sha256 "50f800c3b3a523661f9f172dc45c039f13d8bfb2d6f3fedabad40c2dba5ac217"
     else
-      url "https://github.com/forjd/browse/releases/download/browse-v0.16.2/browse-linux-x86_64"
-      sha256 "b1fe3a6b7b6ac094a6a299e877bf17f6cadea5e36a90d039d7af92248b405856"
+      url "https://github.com/forjd/browse/releases/download/browse-v0.16.3/browse-linux-x86_64"
+      sha256 "0efe8a47d8d408fe1a606760a294fd7ed32ef741aed40175b20328225347c9cd"
     end
   end
 
